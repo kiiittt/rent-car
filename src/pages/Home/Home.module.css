@@ -1,0 +1,31 @@
+.container {
+  height: 960px;
+  width: 100vw;
+  background-image: url(../../images/car2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 274px;
+  height: 44px;
+  padding: 12px, 99px, 12px, 99px;
+  border-radius: 12px;
+  background-color: #3470ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #0B44CD;
+}
