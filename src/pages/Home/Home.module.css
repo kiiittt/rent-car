@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
 .container {
   height: 960px;
   width: 100vw;
@@ -26,6 +31,6 @@
   text-decoration: none;
 }
 
-.btn:hover{
-    background-color: #0B44CD;
+.btn:hover {
+  background-color: #0b44cd;
 }
