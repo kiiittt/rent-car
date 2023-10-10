@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  height: 960px;
+  height: 888px;
   width: 100vw;
   background-image: url(../../images/car2.jpg);
   background-size: cover;
