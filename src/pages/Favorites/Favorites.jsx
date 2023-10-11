@@ -1,8 +1,14 @@
+// import React, { useState, useEffect } from 'react';
+import FavoriteList from 'components/FavoriteList/FavoriteList';
+import { FavoriteContainer } from './Favorites.styled';
+
 const Favorite = () => {
+
+
   return (
-    <>
-      <h1> Favorite 100 % </h1>
-    </>
+    <FavoriteContainer>
+      <FavoriteList />
+    </FavoriteContainer>
   );
 };
 
